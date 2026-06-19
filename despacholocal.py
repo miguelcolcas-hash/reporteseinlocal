@@ -246,8 +246,8 @@ def recortar_y_filtrar(base_name, mtime, f_ini_str, f_fin_str, nombres_maestro_t
 # ──────────────────────────────────────────
 st.markdown('<div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">'
             '<span style="font-size:1.6rem">⚡</span>'
-            '<div><h2 style="margin:0;font-size:1.25rem;color:#0f172a">Dashboard de Supervisión</h2>'
-            '<p style="margin:0;font-size:0.78rem;color:#6b7a99">Despacho Ejecutado del SEIN</p></div>'
+            '<div><h2 style="margin:0;font-size:1.25rem;">Dashboard de Supervisión</h2>'
+            '<p style="margin:0;font-size:0.78rem;opacity:0.8;">Despacho Ejecutado del SEIN</p></div>'
             '</div>', unsafe_allow_html=True)
 st.markdown('<hr style="margin:8px 0 16px;border:none;border-top:2px solid #e0e6ef">', unsafe_allow_html=True)
 
